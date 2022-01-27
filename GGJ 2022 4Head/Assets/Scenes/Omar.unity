@@ -250,6 +250,7 @@ GameObject:
   - component: {fileID: 1637524237}
   - component: {fileID: 1637524236}
   - component: {fileID: 1637524235}
+  - component: {fileID: 1637524238}
   m_Layer: 0
   m_Name: ObstaclePull
   m_TagString: Untagged
@@ -359,6 +360,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1637524238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637524233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4f4994f8be684c4d9f743845cb6440b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pullObstacle: {fileID: 1637524233}
+  pullForceSpeed: 1.02
 --- !u!1 &2039550549
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,8 +492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed980e0042f7f64e8d9170fff0267cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20.04
-  speedLimit: 0
+  speed: 19.45
 --- !u!58 &2039550554
 CircleCollider2D:
   m_ObjectHideFlags: 0

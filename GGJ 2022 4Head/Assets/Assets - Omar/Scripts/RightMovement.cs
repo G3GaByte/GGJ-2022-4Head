@@ -20,7 +20,7 @@ public class RightMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    [SerializeField] private float speedLimit;
+
     void Update()
     {
         
